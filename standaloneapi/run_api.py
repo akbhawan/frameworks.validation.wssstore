@@ -24,7 +24,6 @@ class RunScenarioAPI:
         self.phase = kwargs.get('phase')
         self.location = kwargs.get('location')
         self.platform = kwargs.get('platform')
-        self.testdata = kwargs.get("testdata")
         self.framework_version = kwargs.get('framework_version')
         self.framework = kwargs.get('framework')
         self.execution_type = kwargs.get('execution_type')
@@ -48,7 +47,7 @@ class RunScenarioAPI:
                 splunk_metadata=self.splunk_metadata
             )
             # if sut_list.count > 1 :Fanout option
-            scenario_json = run_test_executioner.prepare_tws_scenario()
+            scenario_json = run_test_executioner.generate_scenario_json()
             LOG.info("Scenario Json Created Successfully {}".format(scenario_json))
             return scenario_json
         except Exception as error:
@@ -59,4 +58,29 @@ class RunScenarioAPI:
                 'message': 'Error while executing run tests :' + error.__str__()
             }
 
+    def generate_onemap_scenario(self):
+        """
+        Generate JSON and Run the RAILS TestCase Execution
+        for (Bronze/Silver) using TWS Post-Scenario and returns results.
+        :return: Execution Results Status
+        """
 
+        testcase_list = str(self.testcases).split(',')
+        try:
+            run_test_executioner = PrepareTestScenario(
+                testcase_list=testcase_list,
+                timeout=self.timeout,
+                framework=self.framework,
+                splunk_metadata=self.splunk_metadata
+            )
+            # if sut_list.count > 1 :Fanout option
+            scenario_json = run_test_executioner.generate_scenario_json()
+            LOG.info("Scenario Json Created Successfully {}".format(scenario_json))
+            return scenario_json
+        except Exception as error:
+            LOG.error(
+                "Run Test failed with exception: {}".format(error))
+            return {
+                'status': 'Failure',
+                'message': 'Error while executing run tests :' + error.__str__()
+            }

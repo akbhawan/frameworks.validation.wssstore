@@ -9,14 +9,6 @@ class TwsPrepareScenario(ABC):
     """ Abstract class - PrepareTwsScenario"""
 
     @abstractmethod
-    def override_scenario_variables(self):
-        """
-        Override scenario variables
-        :return:
-        """
-        raise NotImplementedError("Subclasses should implement intialize_tws_scenario!")
-
-    @abstractmethod
     def generate_scenario_json(self):
         """
         Generates scenario JSON

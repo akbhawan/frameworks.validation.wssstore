@@ -45,7 +45,7 @@ class ExecutionScenarioBuilder(TwsScenarioBuilder):
     def initialize_tws_scenario(self):
         """Initialize the TWS Scenario Class"""
         LOG.info("Initializing TWS Scenario")
-        self.package_version, self.branch_name, self.package_name = package.get_package_version()
+        #self.package_version, self.branch_name, self.package_name = package.get_package_version()
         LOG.info("Package Version = {package_version}".format(package_version=self.package_version))
         variables = {
             "local-path": "C:\\TestSuite\\",

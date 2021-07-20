@@ -16,8 +16,8 @@ setup(name='standaloneapi',
     include_package_data=True,
     scripts=[
         'cli_scripts/store.py',
-        "cli_scripts/onemapcli.py",
-        "cli_scripts/standalonecli.py"
+        "cli_scripts/onemap.py",
+        "cli_scripts/standalone.py"
     ],
     entry_points={
         'console_scripts': [

@@ -3,23 +3,20 @@
 2. Generated testlist is passed to RAILS to generate scenario json
 3. Scenario json is passed to TWS post scenario to execute testcases
 """
-import sys
 import click
-import json
-import os
 from logger.logger_util import get_logger_instance
 from standaloneapi.run_api import RunScenarioAPI
 
 LOG = get_logger_instance()
 
 
-@click.group("run")
+@click.group("standalone")
 def main():
     """ Run the Test Execution"""
     return 0
 
 
-@main.command('onemap', context_settings=dict(
+@main.command('generate_scenario', context_settings=dict(
     ignore_unknown_options=True,
     allow_extra_args=True,
 ))
@@ -40,21 +37,21 @@ def generate_onemap_scenario(
     LOG.info(f"Splunk MetaData: {solunk_kwargs}")
     LOG.info(f"Test Cases: {testcases}")
     getRunScenario = RunScenarioAPI(
-        framework="Onemap",
-        testdata=testcases,
+        framework="standalone",
+        testcases=testcases,
         timeout=timeout,
         splunk_metadata=solunk_kwargs
     )
     results = getRunScenario.generate_standalone_scenario()
-    if results.get('status') == 'Success':
-        return_run_test_response(results)
-    else:
-        LOG.error("Failed to trigger test execution")
-        response = {'provision_type': 'WSS-STORE',
-                    'sut': None,
-                    'result_url': results.get('message'),
-                    'status': 'Failure'}
-        return_run_test_response(response)
+    # if results.get('status') == 'Success':
+    #     return_run_test_response(results)
+    # else:
+    #     LOG.error("Failed to trigger test execution")
+    #     response = {'provision_type': 'WSS-STORE',
+    #                 'sut': None,
+    #                 'result_url': results.get('message'),
+    #                 'status': 'Failure'}
+    #     return_run_test_response(response)
     return results
 
 def return_run_test_response(response):

@@ -57,8 +57,7 @@ class PrepareTestScenario(TwsPrepareScenario):
         # if self.flash_type is not None:
         scenario_path = os.path.join(
             get_installation_path(),
-            "source",
-            "run",
+            "standaloneapi",
             "scenario",
             "Automation_{}_TestSuite.json".format(self.framework.upper()))
         execution_builder = ExecutionScenarioBuilder(
