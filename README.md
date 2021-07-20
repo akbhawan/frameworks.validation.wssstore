@@ -29,8 +29,8 @@
   --help  Show this message and exit.
 
   Commands:
-  ### onemap      Run the Test Execution
-  ### standalone  Run the Test Execution
+  onemap      Run the Test Execution
+  standalone  Run the Test Execution
 
   (venv) C:\Automation\wss-autoflow\frameworks.validation.wssstore>store standalone generate_scenario --help
   Usage: store standalone generate_scenario [OPTIONS]
@@ -45,10 +45,10 @@
   
   
 ## Commands:
-  Standalone:
-  store standalone generate_scenario -tc "PSPV-TC-14405,PSPV-TC-14078"
+  ### Standalone:
+    store standalone generate_scenario -tc "PSPV-TC-14405,PSPV-TC-14078"
 
-  OneMap:
+  ### OneMap:
       store onemap generate_scenario -tc "16011968858,16011968881"
     
 ## Output JSON Path:
