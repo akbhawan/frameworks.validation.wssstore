@@ -1,0 +1,125 @@
+No,Testcase_ID,HSD_ID,Testcase_Name,Test_Scripts_Count,Timeout_in_Mins,Dependencies,Domain,Script in WSS store
+1,PSPV-TCs-1194,,Verify MPO feature during video playback on Internal-display,1,130,Need to ensure timings(timeout),Graphics,Script uploaded
+2,PSPV-TCs-9996,,Verify audio playback during back to back conversion of operation modes,1,130,Need to ensure timings(timeout),Audio,Script uploaded
+3,PSPV-TC-14077,,Verify audio recording with different boost levels ,1,130,Need to ensure timings(timeout),Audio,Script uploaded
+4,PSPV-TC-14311,,Verify WiFi browsing functionality after turning it ON/OFF for 5 cycles,1,130,Need to ensure timings(timeout),Connectivity.WiFi,Script uploaded
+5,PSPV-TC-14078,,Verify voice recording through USB headset,1,130,Need to ensure timings(timeout),Audio,Script uploaded
+6,PSPV-TC-14359,,Verify FTP file download over WLAN 802.11n on 2.4GHz and 5 GHz ,1,130,Need to ensure timings(timeout),Connectivity.WiFi,Script uploaded
+7,PSPV-TC-14405,,Verify HEVC 10 Bit Overnight playback using Movies_TV app,1,130,Need to ensure timings(timeout),Video,Script uploaded
+8,PSPV-TC-15032,,Verify WLAN Browsing after S3 cycles (x5),1,130,Need to ensure timings(timeout),Connectivity.WiFi,Script uploaded
+9,PSPV-TCs-829,,Long duration Video Streaming over WiFi for 2 hours,1,130,Need to ensure timings(timeout),Connectivity.WiFi,Script uploaded
+10,PSPV-TCs-855,,Verify ping continues after WiFi AP switching,1,130,Need to ensure timings(timeout),Connectivity.WiFi,Script uploaded
+11,PSPV-TCs-1134,,"NIC-Audio : Long duration Audio Playback for ""X"" hours.",1,740,Need to ensure timings(timeout),Audio,Script uploaded
+12,PSPV-TCs-1135,,"Stability : NiC-Graphics : Long duration Video Playback for ""X"" hours.	",1,740,Need to ensure timings(timeout),Video,Script uploaded
+13,PSPV-TC-4901,,Verify trick mode during VC-1 video playback using Movies and TV app,1,130,Need to ensure timings(timeout),Video,Script uploaded
+14,PSPV-TC-13968,,Verify MP3 music playback with different bit rates,1,130,Need to ensure timings(timeout),Audio,Script uploaded
+15,PSPV-TC-14001,,Verify pause and resume of Audio playback after 3 Minutes,1,130,Need to ensure timings(timeout),Audio,Script uploaded
+16,PSPV-TC-14024,,Verify WLAN Browsing after S4 (hibernate) cycles (x5),1,130,Need to ensure timings(timeout),Connectivity.WiFi,Script uploaded
+17,PSPV-TC-14072,,Verify simultaneous audio recording and audio playback,1,130,Need to ensure timings(timeout),Audio,Script uploaded
+18,PSPV-TCs-494,,"WiFi stress: Connect and Disconnect to AP, Enable and Disable WiFi in Device Manager, RF kill ON and OFF in loop for 10 times.",1,130,Need to ensure timings(timeout),Connectivity.WiFi,Script uploaded
+19,PSPV-TC-3891,,Verify video playback before and after changing Screen Orientation using Movies_TV,1,130,Need to ensure timings(timeout),Video,Script uploaded
+20,PSPV-TC-14054,,Verify WLAN Browsing after S5 (Shutdown with fast startup disabled) cycles (x5),3,130,Shutdown,Connectivity.WiFi,Script uploaded
+21,PSPV-TC-14055,,Verify WLAN Browsing after Restart cycles (x5),3,130,Restart,Connectivity.WiFi,Script uploaded
+22,PSPV-TC-14286,,Verify WLAN Browsing after S5 (Shutdown with fast startup enabled) cycles,3,130,Shutdown,Connectivity.WiFi,Script uploaded
+23,PSPV-TCs-15033,,Verify the WiFi RF Kill and Airplane mode switch (x5) impact on WiFi Browsing,1,130,Need to ensure timings(timeout),Connectivity.WiFi,Script uploaded
+24,PSPV-TCs-101,,Verify youtube playback for overnight,1,740,Need to ensure timings(timeout),Connectivity.WiFi,Script uploaded
+25,PSPV-TCs-595,,Verify different operations on jpg image using Photos application,1,130,Need to ensure timings(timeout),Graphics,Script uploaded
+26,PSPV-TCs-1628,,Verify Youku Video Playback on edge browser before and after S3 cycle,1,130,Need to ensure timings(timeout),Connectivity.WiFi,Script uploaded
+27,PSPV-TC-14268,,Verify QHD eDP panel functionality in different resolutions,1,130,Need to ensure timings(timeout),Display,Script uploaded
+28,PSPV-TCs-10016,,Verify Hammock harbor audio test application,1,130,Need to ensure timings(timeout),Audio,Script uploaded
+29,PSPV-TCs-1083,,Verify P state variation based on workload in Windows OS and Turbo is Disabled,3,130,Restart,Power_Management,Script uploaded
+30,PSPV-TCs-1092,,NiC: Verify system stability during running sleep(S3) cycles,1,2880,Need to ensure timings(timeout),Power_Management,Script uploaded
+31,PSPV-TCs-1128,,NiC: Verify system stability during Warm reset cycles,3,2880,Restart,Power_Management,Script uploaded
+32,PSPV-TCs-18259,,Verify 100 Warm Reset cycles with Driver Verifier Enabled,4,300,Restart,Power_Management,Script uploaded
+33,PSPV-TCs-6525,,Verify P state variation based on workload in Windows OS and Turbo is enabled,3,130,Restart,Power_Management,Script uploaded
+34,PSPV-TCs-732,,NiC: Verify system stability during Hibernate(S4) cycles,1,2880,Need to ensure timings(timeout),Power_Management,Script uploaded
+35,PSPV-TCs-733,,Verify 100 Hibernate(S4)/cycles with Driver Verifier Enabled,2,625,S4,Power_Management,Script uploaded
+36,PSPV-TCs-741,,Sx:Verify 100 S3 cycles with Driver Verifier Enabled (IRP Logging),3,2620,S3,Power_Management,Script uploaded
+37,PSPV-TCs-952,,Verify Pkg C states for panels with different resolutions and with/without PSR,1,130,Need to ensure timings(timeout),Power_Management,Script uploaded
+38,PSPV-TCs-957,,Verify S4 before and after Warm reset,2,130,Restart,Power_Management,Script uploaded
+39,PSPV-TCs-762,,Verify Hibernate (S4) cycling along with system level workloads using  Burn-In stress test,1,240,Need to ensure timings(timeout),Power_Management,Script uploaded
+40,PSPV-TCs-873,,Verify system stability during S5 Cycles with fast startup disabled,5,1200,Shutdown,Power_Management,Script uploaded
+41,PSPV-TCs-730,,NiC: Verify system stability during shutdown cycles with fast startup enabled,5,2880,Shutdown,Power_Management,Script uploaded
+42,PSPV-TCs-763,,Verify system functionality during 100 hybrid S3 cycles,1,300,Need to ensure timings(timeout),Power_Management,Script uploaded
+43,PSPV-TCs-12570,,Verify RTC wakes SUT from S5 (Shutdown),5,130,Shutdown,Power_Management,Script uploaded
+44,PSPV-TCs-786,,[MELowPower] Verify System enter into CM0-PG State in S0 state,1,130,Need to ensure timings(timeout),Security,Script uploaded
+45,PSPV-TCs-785,,[MELowPower] Verify system enter into CM0-PG state after resuming from Sx state,5,130,Restart,Security,Script uploaded
+46,PSPV-TCs-12355,,[MELowPower] Verify if SUT enters ME-PG on ISH disabled system,3,130,Restart,Security,Script uploaded
+47,PSPV-TCs-766,,Verify S3 cycling with Burn-in Stress test,1,1500,Need to ensure timings(timeout),Power_Management,Script uploaded
+48,PSPV-TC-14384,,[MELowPower] Verify system enter into CM0-PG state after resuming from S5 state,2,130,Shutdown,Security,Script uploaded
+49,PSPV-TCs-12789,,[ME] Verify CSME driver enablement,1,130,Need to ensure timings(timeout),Security,Script uploaded
+50,PSPV-TCs-12678,,[MELowPower] Verify ME-PG state exit/enter in S0 state,2,130,Restart,Security,Script uploaded
+51,PSPV-TCs-12880,,[HTTPS]: Verify the Internet Site HTTP and HTTPS by opening HTTP vs HTTPS Test webpage,1,130,Need to ensure timings(timeout),Security,Script uploaded
+52,PSPV-TC-14356,,Verify System functionality after system being idle for 12 hours,2,720,Restart,Power_Management,Script uploaded
+53,PSPV-TCs-387,,Nic: Verify system stability during Modern Standby cycles,3,1100,Restart,Power_Management,Script uploaded
+54,PSPV-TC-14404 ,,[DAL] Verify DAL BAT Test,1,130,Need to ensure timings(timeout),Security,Script uploaded
+55,PSPV-TCs-18392,,Verify system behavior while in Idle for 24Hrs,1,1440,Need to ensure timings(timeout),Power_Management,Script uploaded
+56,PSPV-TCs-1237,,[Optane] Verification of Optane for Long Duration S0 Idle,3,130,Restart,Storage,Script uploaded
+57,PSPV-TCs-322,,Verify PSR2 functionality when two applications are running simultaneously ,1,130,Need to ensure timings(timeout),Display,Script uploaded
+58,PSPV-TCs-18394,,Verify system behavior while in Idle for 240Hrs,1,14400,Need to ensure timings(timeout),Power_Management,Script uploaded
+59,PSPV-TCs-6483,,[Optane] Verification of Optane NGSA in S3 quick transitions.,4,130,Restart,Storage,Script uploaded
+60,PSPV-TCs-6507,,[Optane] Verification of Optane in CMS to Sx Transition.,7,130,Sx cycling,Storage,
+61,PSPV-TCs-6511,, Verification of Optane in Sx transition S3 to S0 to S4 to S0 to S5 to S0.,7,130,"Sleep, S4 and Shutdown",Storage,
+62,PSPV-TCs-9834,,[Optane] Perform IO Operation and do the Sx cycling.,5,130,Sx cycling,Storage,
+63,PSPV-TCs-9835,,[Optane]Verify the Disk Management activity with the optane enabled.,4,130,Restart,Storage,Script uploaded
+64,PSPV-TCs-6506,,[Optane] Verify Optane is intact with application installation (before restart).,4,130,Restart,Storage,Script uploaded
+65,PSPV-TCs-1027,,NiC:Verify system stability during Hybrid S3 cycles.,1,130,Need to ensure timings(timeout),Power_Management,Script uploaded
+66,PSPV-TC-14874,,Verify 50 warm reboot cycles with battery connected,3,150,Restart,Power_Management,
+67,PSPV-TCs-874,,Verify WLAN browsing after Modern Standby cycles.,3,130,Restart,Connectivity.WiFi,Script uploaded
+68,PSPV-TCs-886,,Verify that WLAN is active during MS.,3,130,Restart,Connectivity.WiFi,Script uploaded
+69,PSPV-TCs-256,,Verify Youtube video playback before and after S3 cycle,1,130,Need to ensure timings(timeout),Video,Script uploaded
+70,PSPV-TC-14042,,[SATA] Check SATA storage device enter into Devsleep State in Modern Standby.,3,130,Restart,Storage,Script uploaded
+71,PSPV-TCs-12524,,Verify file download continuing to completion through wifi during MS.,3,130,Restart,Connectivity.WiFi,Script uploaded
+72,PSPV-TCs-9169,,Verify VP9 10 bit video playback before and after Modern Standby.,3,130,Restart,Video,Script uploaded
+73,PSPV-TCs-1062,,Verify H264 Video playback before and after Modern Standby.,3,130,Restart,Video,Script uploaded
+74,PSPV-TC-14349,,Verify that security scan can be performed when SUT is in Modern Standby.,3,130,Restart,Power_Management,Script uploaded
+75,PSPV-TCs-737,,Verify S5 cycles on SUT by populating one DIMM,4,130,Shutdown,Power_Management,
+76,PSPV-TCs-761,,Verify S5 cycles on SUT by populating all the DIMMs,4,130,Shutdown,Power_Management,
+77,PSPV-TCs-891,,Verify Wi-Fi ping during Modern Standby(MS),3,130,Restart,Power_Management,Script uploaded
+78,PSPV-TCs-991,,Verify Entry and exit of ( DMS) Modern Standby Disconnected using Power Button press,3,130,Restart,Power_Management,Script uploaded
+79,PSPV-TC-25124,,Disable Hyperthreading ,3,130,Restart,Overclocking,Script uploaded
+80,PSPV-TCs-1130,,Sx: Verify system state functionality of DeepS4 with AC connection ,3,130,S4 and Restart,Power_Management,Script uploaded
+81,PSPV-TCs-871,,Stress: Verify system stability during Deep S4 cycles ,3,1100,S4 and Restart,Power_Management,Script uploaded
+82,PSPV-TCs-17842,,Verify file download from wired LAN while SUT is in MS ,3,130,Restart,Connectivity.Ethernet,Script uploaded
+83,PSPV-TC-14092,,Verify wired LAN Browsing after S4 (hibernate) cycles(x5),1,130,Need to ensure timings(timeout),Connectivity.Ethernet,Script uploaded
+84,PSPV-TC-14093,,Verify Wired LAN Browsing after S3 cycles (x5),1,130,Need to ensure timings(timeout),Connectivity.Ethernet,Script uploaded
+85,PSPV-TC-14094,,Verify Wired LAN Browsing after Restart cycles(x5).,3,130,Restart,Connectivity.Ethernet,Script uploaded
+86,PSPV-TC-14289,2202171355,Verify wired LAN Browsing after S5 (Shutdown with fast startup disabled) cycles(x5).,3,130,Shutdown,Connectivity.Ethernet,Script uploaded
+87,PSPV-TCs-1133,2202175657, Verify system stability during G3 Cycles,3,130,G3,Power_Management,Script uploaded
+88,PSPV-TC-14230,2202180023,Verify graceful shut down during video playback,3,130,Shutdown,Display,
+89,PSPV-TC-14074,2006736487,Verify wired LAN Browsing after S5 (Shutdown with fast startup enabled) cycles(x5,3,130,Shutdown,Connectivity.Ethernet,Script uploaded
+90,PSPV-TCs-9212,2202175895,Verify long press of power button transitions system from S5 to Deep S5 state in AC mode,4,130,Shutdown,Power_Management,Script uploaded
+91,PSPV-TCs-18430,2207155959,Verify 200 MS cycles with Wired LAN connection,3,500,Restart,Power_Management,Script uploaded
+92,PSPV-TCs-18431,2207155978,Verify 200 S3 cycles with Wired LAN connection.,1,500,Need to ensure timings(timeout),Power_Management,Script uploaded
+93,PSPV-TCs-18432,2207155995,Verify 200 S4 cycles with Wired LAN connection,1,500,Need to ensure timings(timeout),Power_Management,Script uploaded
+94,PSPV-TCs-1245,2202182539, Verify Audio playback before and after S3 and S4 cycles,1,130,Need to ensure timings(timeout),audio,Script uploaded
+95,PSPV-TCs-598,2202176319,Verify SUT enters Deep S4 power state on shutdown command when Fast Startup is enabled .,4,130,Restart,Power_Management,Script uploaded
+96,PSPV-TCs-990,2202176939,Sx: Verify system functionality during Hybrid S3 cycles using USB KB as wake source,1,130,Need to ensure timings(timeout),Power_Management,Script uploaded
+97,PSPV-TCs-9333,2202178860,Verify that the system enters Away Mode in S3 config system,1,130,Need to ensure timings(timeout),Power_Management,Script uploaded
+98,PSPV-TCs-953,2202176773,Verify system stability after abrupt system reset/G3 when SUT is in Modern Standby,5,130,G3,Power_Management,Script uploaded
+99,PSPV-TCs-24,2202176068,Verify S3 Entry/Exit for N cycles through lid switch.,1,130,Need to ensure timings(timeout),Power_Management,Script uploaded
+100,PSPV-TCs-1319,,Verify power state transitions (S0/MS/S4/S5/Restart).,4,130,Shutdown and restart,Power_Management,
+101,PSPV-TCs-17589,2207565150,Validation of Graceful shutdown by power button assertion with AC adaptor.,2,130,Shutdown,Power_Management,Script uploaded
+102,PSPV-TCs-20313,2209223306,Verify System behavior with Sx flows in different lid-close settings.,3,130,Shutdown and restart,Power_Management,Script uploaded
+103,PSPV-TCs-887,2202176661,Validate system enters into hibernation(S4) on critical battery level.,1,130,Need to ensure timings(timeout),Power_Management,
+104,PSPV-TCs-26,2202171383,Verify wired LAN functionality after G3 (x5) ,6,130,G3,Power_Management,Script uploaded
+105,PSPV-TCs-1131,2202177682,Verify display wake via Windows/Home button from MS.,3,130,Restart,Power_Management,Script uploaded
+106,PSPV-TC-14254,2207798251,PM_Battery: Report power management status and complete battery status.,1,130,Need to ensure timings(timeout),Power_Management,Script uploaded
+107,PSPV-TCs-6497,2202178421,Verify Adaptive Hibernation when SUT is in Modern Standby.,3,130,Restart,Power_Management,Script uploaded
+108,PSPV-TC-25712,2206999195,Long duration Video Streaming over LAN for X number of hours.,1,740,Need to ensure timings(timeout),Connectivity.Ethernet,Script uploaded
+109,PSPV-TCs-1309,2202178318,Verify SLP_S0 residency with LAN connected.,3,130,Restart,Power_Management,Script uploaded
+110,16011122977,16011122977,Verify system stability during S3 Cycles (2 Cycles),1,160,Need to ensure timeout,PowerManagement,Script uploaded
+111,14011237839,14011237839,Verify system stability during Modern Standby cycles(10 cycles).,3,160,Restart,PowerManagement,Script uploaded
+112,14011237805,14011237805,Verify system stability during Hibernate(S4) cycles(10 cycles).,3,160,Restart,PowerManagement,Script uploaded
+113,14011237762,14011237762,Verify system stability during running sleep(S3) cycles(10 cycles).,1,160,Need to ensure timeout,PowerManagement,Script uploaded
+114,2202183121,2202183121,Verify audio playback along with Burn in tool workload for 2 hours,1,160,Need to ensure timeout,audio,Script uploaded
+115,2202174204,2202174204,[FWUpdate] Verify ME BIST MEmanuf flow on Platform .,1,160,Need to ensure timeout,Security,Script uploaded
+116,2204911454,2204911454,[PCIe SSD] Verify the performance of M.2 NVMe device with and Without Encryption Enabled.,1,160,Need to ensure timeout,storage,Script uploaded
+117,1407379270,1407379270,"[Virtualization] Verify platform stability upon VM machine ""turn off"" selection in Hyper-V manager",2,160,Restart,Security,Script uploaded
+118,1407379284,1407379284,"[Virtualization] Verify platform stability upon VM machine ""pause"" selection in Hyper-V manager",2,160,Restart,Security,Script uploaded
+119,1407379300,1407379300,"[Virtualization] Verify platform stability upon VM machine ""reset"" selection in Hyper-V manager",2,160,Restart,Security,Script uploaded
+120,1407379314,1407379314,[Virtualization] Verify platform stability upon VM machine Power operations in Hyper-V manager,2,160,Restart,Security,Script uploaded
+121,2201133200,2201133200,[VSM] Verify driver functionality with VT-d/VSM enable [QAC],1,160,Need to ensure timeout,Security,Script uploaded
+122,2202173569,2202173569,Verify Virtual Smart Card Create and destroy works fine Before and After Sx Cycle with dTPM 2.0 enabled ,4,160,"Restart,Shutdown",Security,Script uploaded
+123,2006795791,2006795791,Verify two VMs are running fine before and after running bit encryption at background and then running Windows memory diagnostic tool,2,160,Restart,Security,Script uploaded
+124,2202175112,2202175112,Verify System enter into Modern stand by with VM running as Guest OS,3,160,Restart,Security,Script uploaded

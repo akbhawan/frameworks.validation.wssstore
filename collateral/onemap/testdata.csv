@@ -1,0 +1,168 @@
+No,Testcase_ID,HSD_ID,Testcase_Name,Domain,Script in WSS store
+1,,16011968823,Verify_HDCP2_2_On_DP_Interface_With_HPD,Content_Protection,Script uploaded
+2,,16011968834,Verify_HDCP2_2_On_HDMI_Interface_With_HPD,Content_Protection,Script uploaded
+3,,16011968873,Verify Display Configuration Extended Dual Display-D0 + Display-D1(DP),Display,Script uploaded
+4,,16011968955,Verify_VP9_Video_4K_60_YUV420_8_Via_YouTube,Media,Script uploaded
+5,,16012328592,Verify_Netflix_Video_On_Primary_Display_Basic_Func,Media,Script uploaded
+6,,16012328653,Verify Intel Video Transcoding H265_4K_30FPS To H264_1080_30FPS on SUT,Media,Script uploaded
+7,,16012328655,Verify Intel Video Transcoding H264_4K_60FPS To H265_1080_30FPS on SUT,Media,Script uploaded
+8,,16012329044,Verify Driver Essential - Graphics Driver Disable Enable basic function,Display,Script uploaded
+9,,16011968858,Verify_H265_Video_4K_60_YUV420_10_HDR_Via_MTV_On_eDP_HDR_Panel,Display,yet to upload
+10,,16011968881,Verify Display Power Conservation Feature eDP - PSR1,Display,yet to upload
+11,,16011968912,Verify 3D Mark Benchmark DX11 on Intel GPU,Graphics,yet to upload
+12,,16012399324,Verify_H265_Video_4K_60_YUV420_10_HDR_Via_MTV_On_DP_HDR_Panel_With_HPD,Media,yet to upload
+13,,16012399326,Verify_H265_Video_4K_60_YUV420_10_HDR_Via_MTV_On_HDMI_HDR_Panel_With_HPD,Media,yet to upload
+14,,16011968914,Verify 3D Mark Benchmark DX12 on Intel GPU,Graphics,yet to upload
+15,,2006738397,Veriy photo sequence using UF camera,Imaging,yet to upload
+16,,2007629719,Verify photo sequence using WF camera,Imaging,yet to upload
+17,,2201141676,Verify Camera Preview using WF and UF Camera,Imaging,yet to upload
+18,,2201141897_UF,Verify Video Recording with maximum supported resolution @30fps using WF and UF camera,Imaging,yet to upload
+19,,2201141897_WF,Verify Video Recording with maximum supported resolution @30fps using WF and UF camera,Imaging,yet to upload
+20,,2201142375,Verify Captured image EXIF details,Imaging,yet to upload
+21,,2206658640_UF,Verify Image capture with maximum resolution using WF and UF camera,Imaging,yet to upload
+22,,2206658640_WF,Verify Image capture with maximum resolution using WF and UF camera,Imaging,yet to upload
+23,,2201141897,Verify Video Recording with maximum supported resolution @30fps using WF Camera,Imaging,yet to upload
+24,,16013005953,Verify Video Recording with maximum supported resolution @30fps using UF camera,Imaging,yet to upload
+25,,2206658640,Verify Image capture with maximum resolution using WF,Imaging,yet to upload
+26,,16013005903,Verify Image capture with maximum resolution using UF camera,Imaging,yet to upload
+27,,16011968897,Verify OpenCL Cross-platform LuxMark benchmark tool on Intel GPU,Graphics,yet to upload
+28,,16011968901,Verify GPU Caps Viewer OpenGL Demos on Intel GPU,Graphics,yet to upload
+29,,16011968903,Verify GPU Caps Viewer Vulkan Demos on Intel GPU,Graphics,yet to upload
+30,,16012328718,Verify HotPlug_Un_Plug on All_DP_CRB_Ports,Display,yet to upload
+31,PSPV-TCs-6523,2006735763,Verify the 4K HEVC10-bit Video playback in different display modes over DP with Cortana enabled in OS,Media,
+32,PSPV-TC-14740,2007193052, Verify 4K video playback in HDMI display and 1080p video playback in edp display simultaneously in extend mode,Media,
+33,PSPV-TCs-9301,2007261478, SI_Display_Single_HDMI_4K,Display,
+34,PSPV-TCs-9960,2007261814, SI_MM_MJPEG_1080p_HW Decode,Media,
+35,PSPV-TCs-9961,2007261825, SI_MM_H.264_Level 4.2_1080p_HW Decode,Media,
+36,PSPV-TCs-9962,2007261841,"  SI_MM_VC-1_AVI_Advanced_1080p_HW Decode
+",Media,
+37,PSPV-TC-25172,2007436893,"  H265_Decode_Main420_Level_5.1_2160p60_4K
+",Media,
+38,PSPV-TC-25173,2007436895,"  H265_Decode_Main10_Level_6.1_4320p60_8K
+",Media,
+39,PSPV-TCs-16381,2007511170,"  Verify HDR trick mode playback with Movies and TV player on HDR HDMI display
+",Media,
+40,PSPV-TC-16418,2201141065,"  Play HDR content to an external HDR-enabled DP Display
+",Content_Protection,
+41,PSPV-TC-507,2201141145,"  ST_Display_HDMI_Clone_Scale_to_ max_HDMI_resolution
+",Display,
+42,PSPV-TC-6315,2201141191,"  Netflix movie streaming- primary display
+",Content_Protection,
+43,PSPV-TC-484,2201141204,"  ST_Display_DP_Single_Video_PlayBack_With_Scaling_up_down
+",Display,
+44,PSPV-TC-18923,2201141254,"  SI_GFX_Display HDR content playback with Netflix to an external HDR-enabled HDMI Display
+",Content_Protection,
+45,PSPV-TC-16461,2201146062,"  SDR playback over HDR supported primary display
+",Display,
+46,PSPV-TC-8816,2201146210,"  Verify video playback on extended mode with DP display
+",Media,
+47,PSPV-TC-18882,2201146240,"  Verify 4K Youtube video streaming on primary display (eDP)
+",Media,
+48,PSPV-TC-18886,2201146245,"  Verify 5K video playback over external display
+",Media,
+49,PSPV-TC-19118,2201146261,"  ST_Verify HDR content playback on Windowed mode
+",Media,
+50,PSPV-TC-19128,2201146274,"  SI_Image Rotation +/-90 Degrees through Metro App
+",Graphics,
+51,PSPV-TC-3872,2201147121,"  Verify video playback while rotating screen using sensor card
+",Media,
+52,PSPV-TC-21680,2201648296,"  SI_DP_HDCP2.2_Netflix_Hotplug_Unplug
+",Content_Protection,
+53,PSPV-TC-13969,2202166657,  Verify VP9 10-bit video playback with trick modes in internal display,Media,
+54,PSPV-TCs-48,2202167279,"  Verify Trick mode HDR Netflix Video playback using edge browser
+",Content_Protection,
+55,PSPV-TC-14269,2202180079,"  Verify Hot-plug and Un-plug of DP in different display modes
+",Display,
+56,PSPV-TC-14272,2202180097,"  Verify Hot-plug and Un-plug of HDMI in different display modes
+",Display,
+57,PSPV-TCs-338,2202180152,"  Verify HDR video playback over HDMI display
+",Media,
+58,PSPV-TCs-9232,2202180325,"  Verify video playback with max and min common resolution in clone mode with DP display
+",Display,
+59,PSPV-TCs-10047,2202181074,"  Verify hotplug and unplug with Type C to DP dongle while video playback in progress
+",Display,
+60,PSPV-TCs-12314,2202181246,"  Verify UHD HDR video playback in clone mode with HDR-HDMI display
+",Display,
+61,PSPV-TC-14939,2202181709,"  Verify video playback on Type C to DP dongle in Extend mode
+",Display,
+62,PSPV-TCs-80,2202183784,"  Verify playback of HTML5 video having Canvas effect in ""Second screen only"" mode over HDMI
+",Graphics,
+63,PSPV-TCs-13003,2204974407,  Verify Hotplug and unplug during HDR  Netflix playback with different display modes over HDR HDMI display,Content_Protection,
+64,PSPV-TCs-17588,2206212568,"  Verify different Orientation settings in internal display along with HDMI connected in clone mode.
+",Display,
+65,PSPV-TCs-17845,2206213948,"  Verify 5K youtube video playback with trick modes over DP1.4 display
+",Media,
+66,PSPV-TCs-17850,2206214015,"  Verify 8K youtube video playback with trick modes over DP1.4 display
+",Media,
+67,PSPV-TCs-16387,2206537671,  Verify HDR Netflix trick mode playback using edge browser in clone mode over DP display,Content_Protection,
+68,PSPV-TC-16396,2201146041,"  ST_Transcode - H.265 / HEVC 10b > H.264 / AVC
+",Media,
+69,PSPV-TC-22277,2006994810,"  SI_Verify mode change during HDR video playback
+",Display,
+70,PSPV-TC-4901,2201146087,Verify trick mode during VC-1 video playback using Movies and TV app,Media,
+71,PSPV-TC-3891,2201146202,"  Verify video playback before and after changing Screen Orientation using Movies_TV
+",Media,
+72,PSPV-TCs-6521,2202166594,"  Verify internal Display off functionality while Netflix Video is playing in Edge browser with AC and DC mode
+",Content_Protection,
+73,PSPV-TCs-12564,2202166973,"  Verify 1080p video playback in eDP and 4K youtube playback on 4K HDMI display in extended mode
+",Media,
+74,PSPV-TCs-201,2202167114,"  Verify Youku video playback on Edge Browser with DC to AC switch
+",Media,
+75,PSPV-TCs-9232,2202180325,"  Verify video playback with max and min common resolution in clone mode with DP display
+",Media,
+76,PSPV-TCs-9268,2202180354,"  Verify video playback with highest and lowest resolution in extend mode with HDMI display
+",Display,
+77,PSPV-TCs-12963,2202181401,"  Verify video playback using trick modes on single display using HDR-HDMI Display
+",Media,
+78,PSPV-TCs-27,2202181738,"  Verify 4K VP9 10 bit video playback in DC mode with HDMI Extended Mode
+",Media,
+79,PSPV-TCs-276,2202182009,"  Verify VP9 8-bit video playback while switching from AC to DC mode and vice versa
+",Media,
+80,PSPV-TCs-16373,2203588415,"  Verify HDR Netflix playback on Internal-display during AC-DC switching
+",Content_Protection,
+81,PSPV-TC-24915,2204080397,"  verify HDR  FHD video playback on external  HDMI  HDR display in extend mode
+",Media,
+82,PSPV-TCs-72,2204973868,"  Verify HDR Netflix trick mode playback using edge browser in clone mode over HDMI display
+",Content_Protection,
+83,PSPV-TCs-13001,2204974367,"  Verify Hotplug and unplug while playing HDR video with HDR-HDMI panel
+",Media,
+84,PSPV-TCs-17881,2205577673,"  Verify HDR video playback on internal display during AC to DC switching and vice versa
+",Media,
+85,PSPV-TCs-17884,2205577710,"  Verify video playback on internal HDR display and on external HDMI monitor in extend mode
+",Media,
+86,PSPV-TCs-17885,2205577721,"  Verify HDR video playback on non native resolution on internal HDR panel
+",Media,
+87,PSPV-TCs-17802,2206213884,"  Verify 4K video playback with trick modes in internal-display during AC-DC switching
+",Media,
+88,PSPV-TCs-16384,2206472929,"  Verify HDR playback in Netflix on edge browser and Movies and TV application simultaneously
+",Media,
+89,PSPV-TCs-17847,2206763157,"  Verify HDR video playback with trick modes over internal HDR Display
+",Media,
+90,PSPV-TCs-17701,2207539062,"  Verify resizing functionality with video playback on extended display
+",Media,
+91,PSPV-TCs-13004,2006758260,"  Verify HDR video playback before and after S3 on second screen only mode over HDMI
+",Media,
+92,PSPV-TC-14981,2006796842,"  Verify video playback before and after S3 and S4 with non native resolution
+",Media,
+93,PSPV-TC-14403,2202166617,"  Verify HEVC 10-bit video playback with trick modes in internal display before and after S3,S4
+",Media,
+94,PSPV-TCs-41,2202167219,"  Verify Netflix playback using edge browser before and after S4
+",Content_Protection,
+95,PSPV-TCs-42,2202167251,"  Verify Netflix playback before and after S3 cycles using lid action
+",Content_Protection,
+96,PSPV-TCs-9218,2202180297,"  Verify HDR Netflix playback using UWP app on HDMI display before and after S3
+",Content_Protection,
+97,PSPV-TC-14930,2202181660,"  Verify dual display AV playback before and after S3 cycle using LID switch
+",Display,
+98,PSPV-TCs-12998,2204974342,"  Verify HDR playback with Movies and TV application before and after S3 and S4 cycles
+",Media,
+99,PSPV-TCs-17883,2205577687,"  Verify HDR video playback on internal HDR display after S3 and S4 sequentially
+",Media,
+100,PSPV-TCs-16375,2206252508,"  verify Netflix HDR video playback before and after S3 and S4 on DP
+",Content_Protection,
+101,,16013196652,Record video 2D World facing camera and store it in h264forma,media,yet to upload
+102,,16011968889,Verify Internal Display Backlight/Brightness Control,display,yet to upload
+103,,16011968881,Verify Display Power Conservation Feature eDP - PSR1,display,yet to upload
+104,,16011968883,Verify Display Power Conservation Feature eDP - PSR2,display,yet to upload
+105,,2201141913,Verify Video recording and Image capture simultaneously using dual camera,Imaging,yet to upload
+106,,2201142232,Verify Video recording with maximum resolution using dual camera,Imaging,yet to upload
