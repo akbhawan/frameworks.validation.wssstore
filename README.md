@@ -28,5 +28,27 @@ Options:
   --help  Show this message and exit.
 
 Commands:
-  onemapcli      Run the Test Execution
-  standalonecli  Run the Test Execution
+  onemap      Run the Test Execution
+  standalone  Run the Test Execution
+  
+(venv) C:\Automation\wss-autoflow\frameworks.validation.wssstore>store standalone generate_scenario --help
+Usage: store standalone generate_scenario [OPTIONS]
+
+  Select testlist based on phase and generate scenario json using RAILS
+
+Options:
+  -tc, --testcases TEXT  Mention the local file path
+  -timeout, -to FLOAT    Timeout(in hrs) to stop TWS scenario if not
+                         initiated, by default timeout will be 8hrs
+  --help                 Show this message and exit.
+  
+  
+Commands:
+Standalone:
+store standalone generate_scenario -tc "PSPV-TC-14405,PSPV-TC-14078"
+
+OneMap:
+    store onemap generate_scenario -tc "16011968858,16011968881"
+    
+Output JSON Path:
+{Working Directory}/AF_Output
